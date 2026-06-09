@@ -10,7 +10,8 @@ GoogleGemini、スマホカメラ、PCWebCamを利用する。多機能入力支
 
 面倒な入力作業をAI活用で解消します。
 
-GitHubPages
+## GitHubPages
+https://t-studio.github.io/Yomitori-Kun-EX/
 アプリをインストールしなくても、GitHubPagesにアクセス→APIキーの登録で利用できます。 サイト設定でカメラを許可してご利用ください。
 
 ## Run Locally
