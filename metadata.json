@@ -1,0 +1,7 @@
+{
+  "name": "よみとりくん",
+  "description": "スマートフォンのカメラで領収書や名刺をスキャンし、データ化・翻訳・Googleサービス連携を行うOCRアプリ。",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
