@@ -1,20 +1,20 @@
-GoogleGemini、スマホカメラ、PCWebCamを利用する。多機能入力支援アプリです。 AI解析により以下の機能を実現します。
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-・レシート、領収書などを複数枚まとめて一括取り込み→スプレッドシートへ書き出し
+# Run and deploy your AI Studio app
 
-・名刺を複数枚まとめて一括取り込み→スプレッドシートへ書き出し
+This contains everything you need to run your app locally.
 
-・撮影ファイルの翻訳・テキスト化
+View your app in AI Studio: https://ai.studio/apps/16cb34bd-8542-4d5d-859b-87d9c950db84
 
-上記を何回でも繰り返し実行できます。
+## Run Locally
 
-面倒な入力作業をAI活用で解消します。
+**Prerequisites:**  Node.js
 
-GitHubPages
-アプリをインストールしなくても、GitHubPagesにアクセス→APIキーの登録で利用できます。 サイト設定でカメラを許可してご利用ください。
 
-Run Locally
-Prerequisites: Node.js
-
-Install dependencies: npm install
-Run the app: npm run build→npm run preview
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
